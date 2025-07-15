@@ -78,6 +78,7 @@ Teams Webhook을 통해 실행 알림 전송
 git clone https://github.com/mi-createcode/Azure_function.git
 
 2. local.settings.json 구성:
+```json
 {
   "IsEncrypted": false,
   "Values": {
@@ -88,7 +89,7 @@ git clone https://github.com/mi-createcode/Azure_function.git
     "AzureWebHookUrl": "<Teams 웹훅 주소>"
   }
 }
-
+```
 
 3. 로컬 실행:
 func start
