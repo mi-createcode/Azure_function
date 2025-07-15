@@ -49,6 +49,9 @@ func start
 
 - Event Hub Data Explorer
 
+
+
+
 # 태양광 발전 예측 수집 - 실시간 데이터 파이프라인
 이 프로젝트는 Azure Functions, Event Hubs, Teams Webhook을 활용한 실시간 데이터 수집 파이프라인 구축 실습입니다.
 외부 API로부터 태양광 발전량 예측 데이터를 수집하고, 이를 정제 및 가공하여 Azure Event Hub로 전송합니다.
