@@ -25,7 +25,7 @@ It collects solar power generation prediction data from an external API, transfo
 git clone https://github.com/mi-createcode/Azure_function.git
 
 2. Create and configure `local.settings.json` with:
-```json
+
 {
   "IsEncrypted": false,
   "Values": {
@@ -74,17 +74,10 @@ Teams Webhook을 통해 실행 알림 전송
 - Azurite (로컬 Azure Storage 에뮬레이터)
 
 ## 사용 방법
-레포지토리 클론:
-
-bash
-복사
-편집
+1. 레포지토리 클론:
 git clone https://github.com/mi-createcode/Azure_function.git
-local.settings.json 구성:
 
-json
-복사
-편집
+2. local.settings.json 구성:
 {
   "IsEncrypted": false,
   "Values": {
@@ -95,13 +88,14 @@ json
     "AzureWebHookUrl": "<Teams 웹훅 주소>"
   }
 }
-로컬 실행:
 
+
+3. 로컬 실행:
 func start
-Azure 배포 후 확인:
 
-Azure Portal 로그 확인
+4. Azure 배포 후 확인:
+- Azure Portal 로그 확인
 
-Teams 채널에서 알림 확인
+- Teams 채널에서 알림 확인
 
-Event Hub Data Explorer에서 데이터 수신 확인
+- Event Hub Data Explorer에서 데이터 수신 확인
