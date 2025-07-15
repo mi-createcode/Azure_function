@@ -1,4 +1,4 @@
-(Azure_function) Solar Power Generation Prediction - Real-time Data Pipeline
+# (Azure_function) Solar Power Generation Prediction - Real-time Data Pipeline
 
 This project demonstrates a practical real-time data pipeline using Azure Functions, Event Hubs, and Teams Webhook integration.  
 It collects solar power generation prediction data from an external API, transforms the data, and ingests it into Azure Event Hub for further real-time analysis.
