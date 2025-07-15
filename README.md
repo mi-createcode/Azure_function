@@ -25,7 +25,7 @@ It collects solar power generation prediction data from an external API, transfo
 git clone https://github.com/mi-createcode/Azure_function.git
 
 2. Create and configure `local.settings.json` with:
-
+```json
 {
   "IsEncrypted": false,
   "Values": {
@@ -36,7 +36,7 @@ git clone https://github.com/mi-createcode/Azure_function.git
     "AzureWebHookUrl": "<Your Teams Webhook URL>"
   }
 }
-
+```
 
 3. Run locally:
 func start
